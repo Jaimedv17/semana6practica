@@ -1,0 +1,56 @@
+
+@import "sectionmenu.scss";
+@import "sectionservicio.scss";
+@import "sectiontestimonio.scss";
+@import "sectionrestaurantes.scss";
+@import "sectionappcomida";
+@import "footer.scss";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3.5rem;
+}
+
+.ContenedorHeader{
+
+    margin-top: 5rem;
+    width: 63%;
+    max-width: 12000px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+
+    &-Logo{
+        width: 20rem;
+        
+    }
+    &-Nav{
+        width: 40rem;
+    }
+    &-Ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 2.5rem;
+        margin-left: 70px;
+    }
+    &-Li{
+        list-style: none;
+        color: black;
+    }
+    &-Li2{
+        list-style: none;
+    }
+    &-A{
+        text-decoration: none;
+        color: black;
+    }
+    &-A2{
+        text-decoration: none;
+        background-color: #e8505b;
+        color: white;
+        padding:1rem 2rem 1rem 2rem;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,341 @@
+@charset "UTF-8";
+.ContenedorMenú {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: white;
+}
+.ContenedorMenú-Form {
+  height: 30rem;
+  padding: 3.5rem;
+  background-color: #e8505b;
+}
+.ContenedorMenú-TitleForm {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.ContenedorMenú-FormContainer {
+  margin-top: 5rem;
+}
+.ContenedorMenú-Campo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.ContenedorMenú-Input {
+  padding: 0.8rem;
+  margin-top: 0.7rem;
+}
+.ContenedorMenú-ButtonBuscar {
+  margin-top: 2rem;
+  background-color: #455a64;
+  padding: 0.7rem;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.ContenedorMenú-ImagenRepartidor {
+  margin-top: 3.1rem;
+  width: 100%;
+}
+
+.ContenedorServicio-ImagenOla {
+  margin-top: 3rem;
+}
+.ContenedorServicio-SubTitle {
+  text-align: center;
+  display: inline;
+}
+.ContenedorServicio-ServicioTitle {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+.ContenedorServicio-ServicioDescripcion {
+  display: block;
+  font-size: 1.1rem;
+  color: white;
+}
+.ContenedorServicio-ContainerPasos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.ContenedorServicio-ImagenPaso {
+  width: 100%;
+}
+.ContenedorServicio-BackGround {
+  background-color: #e8505b;
+  margin-top: -2.1rem;
+}
+
+.ContenedorTestimonial-SubtitleTestimonio {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.ContenedorTestimonial-Grid {
+  height: 540px;
+  width: 63%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 270px 270px;
+  grid-gap: 20px;
+  color: white;
+}
+.ContenedorTestimonial-Elemento1 {
+  background-color: #455a64;
+  grid-column: 1/4;
+  grid-row: 1/1;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.ContenedorTestimonial-Elemento2 {
+  background-color: #455a64;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.ContenedorTestimonial-Elemento3 {
+  background-color: #455a64;
+  grid-column: 5/6;
+  grid-row: 1/3;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.ContenedorTestimonial-Elemento4 {
+  background-color: #455a64;
+  grid-column: 1/3;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.ContenedorTestimonial-Elemento5 {
+  background-color: #455a64;
+  grid-column: 3/5;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.ContenedorTestimonial-Imagen1 {
+  width: 6.5rem;
+  border-radius: 50px;
+}
+.ContenedorTestimonial-Imagen2 {
+  border: 1px solid green;
+  width: 4rem;
+  border-radius: 180px;
+  margin-right: 7rem;
+}
+.ContenedorTestimonial-Header1 {
+  display: flex;
+}
+.ContenedorTestimonial-NombrePuntuacion1 {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.ContenedorTestimonial-Comentario1 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 1.5rem;
+}
+.ContenedorTestimonial-NombrePuntuacion2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 5rem;
+  margin-top: -5rem;
+}
+.ContenedorTestimonial-Estrella2 {
+  display: block;
+  width: 6.5rem;
+  margin-top: -0.7rem;
+}
+.ContenedorTestimonial-Comentario2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.ContenedorRestaurantes {
+  background-color: #eceeef;
+  padding-bottom: 3rem;
+}
+.ContenedorRestaurantes-Title {
+  text-align: center;
+  margin-top: 6rem;
+  padding-top: 4rem;
+  font-size: 2.2rem;
+  color: #455a64;
+}
+.ContenedorRestaurantes-GridElemento {
+  margin: 0 auto;
+  width: 63%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 35px;
+}
+.ContenedorRestaurantes-FlexContenido {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+}
+.ContenedorRestaurantes-LogoEnsalada {
+  padding: 2.5rem;
+  margin-top: 3rem;
+  width: 7rem;
+  height: 7rem;
+}
+.ContenedorRestaurantes-Informacion {
+  padding: 2.5rem;
+  margin-left: -3rem;
+}
+.ContenedorRestaurantes-SubTitle {
+  margin-top: 0.1rem;
+  color: #e8505b;
+  font-size: 1.5rem;
+}
+.ContenedorRestaurantes-Text {
+  line-height: 1.7rem;
+  color: #455a64;
+}
+
+.ContenedorAppcomida-Title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #455a64;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.ContenedorAppcomida-ContenedorGridApp {
+  margin: 0 auto;
+  width: 63%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.ContenedorAppcomida-ImagenRepartidor {
+  width: 100%;
+  overflow: hidden;
+}
+.ContenedorAppcomida-Text {
+  color: #455a64;
+  padding-top: 1rem;
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+}
+.ContenedorAppcomida-Boton {
+  text-align: center;
+  margin-top: 2.3rem;
+  padding: 0.9rem;
+  width: 12rem;
+  display: block;
+  text-decoration: none;
+  background-color: #e8505b;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.ContenedorFooter {
+  margin-top: 3rem;
+  background-color: #455a64;
+}
+.ContenedorFooter-ContenedorNav {
+  margin: 0 auto;
+  width: 63%;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.ContenedorFooter-SubTitle {
+  font-size: 2rem;
+  font-size: bold;
+}
+.ContenedorFooter-Text {
+  width: 24rem;
+  margin-top: -0.5rem;
+  line-height: 2.2rem;
+  font-size: 1.3rem;
+}
+.ContenedorFooter-Ul {
+  margin-left: -2.5rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+.ContenedorFooter-Li {
+  list-style: none;
+}
+.ContenedorFooter-A {
+  text-decoration: none;
+  color: white;
+}
+.ContenedorFooter-Piedepagina {
+  color: white;
+  background-color: #e8505b;
+  text-align: center;
+  padding: 1.3rem;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 3.5rem;
+}
+
+.ContenedorHeader {
+  margin-top: 5rem;
+  width: 63%;
+  max-width: 12000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.ContenedorHeader-Logo {
+  width: 20rem;
+}
+.ContenedorHeader-Nav {
+  width: 40rem;
+}
+.ContenedorHeader-Ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-left: 70px;
+}
+.ContenedorHeader-Li {
+  list-style: none;
+  color: black;
+}
+.ContenedorHeader-Li2 {
+  list-style: none;
+}
+.ContenedorHeader-A {
+  text-decoration: none;
+  color: black;
+}
+.ContenedorHeader-A2 {
+  text-decoration: none;
+  background-color: #e8505b;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=header.css.map */

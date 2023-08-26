@@ -1,0 +1,46 @@
+.ContenedorFooter{
+    margin-top: 3rem;
+    background-color: #455a64;
+
+    &-ContenedorNav{
+        margin: 0 auto;
+        width: 63%;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:30px
+    }
+    &-SubTitle{
+        font-size: 2rem;
+        font-size: bold;
+    }
+    &-Text{
+        width: 24rem;
+        margin-top: -0.5rem;
+        line-height: 2.2rem;
+        font-size: 1.3rem;
+    }
+    &-Ul{
+        margin-left: -2.5rem;
+        line-height: 2rem;
+        font-size: 1.3rem;
+    }
+    &-Li{
+        list-style: none;
+    }
+    &-A{
+        text-decoration: none;
+        color: white;
+    }
+
+    &-Piedepagina{
+        color: white;
+        background-color:#e8505b;
+        text-align: center;
+        padding: 1.3rem;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+}

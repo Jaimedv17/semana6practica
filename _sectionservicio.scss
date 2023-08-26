@@ -1,0 +1,37 @@
+.ContenedorServicio{
+
+    &-ImagenOla{
+        margin-top: 3rem;
+    }
+
+    &-SubTitle{
+        text-align: center;
+        display: inline;
+    }
+    &-ServicioTitle{
+        color: white;
+        font-size: 2.2rem;
+        font-weight:bolder;
+    }
+    &-ServicioDescripcion{
+        display: block;
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    &-ContainerPasos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 63%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    &-ImagenPaso{
+        width: 100%;
+    }
+    
+    &-BackGround{
+        background-color:#e8505b;
+        margin-top: -2.1rem;
+    }
+}
